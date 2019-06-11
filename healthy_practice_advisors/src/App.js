@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './App.css'
-// import Header from './components/Header'
+import Header from './components/Header'
 // import Nav from './components/Nav'
 // import Omakase from './components/Omakase'
 // import AboutUs from './components/AboutUs'
@@ -53,7 +53,7 @@ class App extends Component{
   render(){
     return (
       <div className="App" id="homeJump">
-        <Header
+        {/* <Header
           scrollY={this.state.scrollY}
           sizeX={this.state.sizeX}
           sizeY={this.state.sizeY}
@@ -73,9 +73,9 @@ class App extends Component{
           scrollY={this.state.scrollY}
           sizeX={this.state.sizeX}
           sizeY={this.state.sizeY}
-        />
+        /> */}
         {/* <Food /> */}
-        <Locations 
+        {/* <Locations 
           scrollY={this.state.scrollY}
           sizeX={this.state.sizeX}
           sizeY={this.state.sizeY}
@@ -85,7 +85,7 @@ class App extends Component{
           sizeX={this.state.sizeX}
           sizeY={this.state.sizeY}
         />
-        <Footer />
+        <Footer /> */}
       </div>
     )
   }
