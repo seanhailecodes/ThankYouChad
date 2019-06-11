@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './NavStyleSheet.css'
 const opaqueLogo = require('../images/opaquelogo.png')
-const downArrow = require('../images/down-arrow.png')
+// const downArrow = require('../images/down-arrow.png')
 const logoTop = require('../images/logoTop.png')
 const logoMid = require('../images/logoMid.png')
 const logoDown = require('../images/logoDown.png')
