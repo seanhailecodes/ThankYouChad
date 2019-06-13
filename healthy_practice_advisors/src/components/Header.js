@@ -1,6 +1,7 @@
 import React from 'react'
 import './HeaderStyleSheet.css'
 
+
 const Header = props => {
   return (
     <header>
@@ -11,6 +12,8 @@ const Header = props => {
           height:`${props.sizeY}px`
         }}
         />
+        
+        <p>Hello World Header</p>
     </header>
   )
 }
