@@ -1,0 +1,134 @@
+#mainLogo{
+    position:fixed;
+    top: 13%;
+    left: 50%;
+    margin-left:-50px;
+    opacity: 1;
+    width: 100px;
+    height:205px;
+    /* background:black; */
+    z-index: 1;
+    transform: rotate(0deg);
+    transition: opacity 0.2s ease-in-out;
+    /* display:none; */
+    animation: fade-in-down 1s ease-in-out;
+    pointer-events: none;
+}
+
+#mainLogo>*{
+    transform: scale(0.8);
+    position:fixed;
+    width: 300px;
+    margin-left:-100px;
+    margin-top:5px;
+    transform: rotate(0deg);
+}
+@keyframes fade-in-down{
+    0%{
+        -webkit-transform:translateY(-10px);
+        transform:translateY(-10px);
+        opacity:0;
+    }
+    100%{
+        -webkit-transform:translateY(0);
+        transform:translateY(0);
+    }
+}
+
+#mainNav{
+    margin-top:-64px;
+    height:45px;
+    padding: 10px 0;
+    position:relative;
+    z-index:3;
+    font-size:20px !important;
+    opacity: 1;
+    background: black;
+    /* animation: fade-in-up 1s ease-in-out; */
+}
+@keyframes fade-in-up{
+    0%{
+        -webkit-transform:translateY(90px);
+        transform:translateY(90px);
+        opacity:0;
+    }
+    100%{
+        -webkit-transform:translateY(0);
+        transform:translateY(0);
+        opacity:1;
+    }
+}
+#opaquelogo{
+    width:60px;
+    height:60px;
+    padding:10px 20px;
+    margin-top:-28px;
+    transition: opacity 0.35s ease-in-out;
+}
+#downArrow{
+    width:30px;
+    height:22px;
+    filter: invert(70%);
+    padding:15px 35px;
+    margin-top:-15px;
+    transition: opacity 0.35s ease-in-out;
+    animation: point-down 1.5s ease-in-out infinite;
+}
+#downArrowContainer{
+    width:100px;
+}
+
+#resLoc {
+    border: 1px red solid;
+    border-radius: 15px;
+    padding: 0 10px;
+}
+
+@keyframes point-down{
+    50%{
+        margin-top: -20px;
+    }
+}
+nav ul {
+    list-style-type: none;
+    padding: 1px 0 !important;
+    text-transform: uppercase;
+    display: flex;
+}
+nav ul>*{
+    margin:auto;
+    width: 100px;
+    margin-top:-10px;
+}
+
+li {
+    display: inline-block;   
+    text-align: center !important;   
+}
+  
+li a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+}
+.reservationLoc{
+    opacity:0.6;
+}
+.reservationLoc:hover{
+    border-top: 0.5px solid rgba(255,255,255,0.5);
+    border-bottom: 0.5px solid rgba(255,255,255,0.5);
+}
+
+#reservationReservation {
+    border: 1px red solid;
+    border-radius: 15px;
+    padding: 0 10px;
+}
+
+.navLoc{
+    opacity:1;
+    cursor: pointer;
+}
+.navLoc:hover{
+    border-top: 0.5px solid rgba(255,255,255,0.8);
+    border-bottom: 0.5px solid rgba(255,255,255,0.8);
+}
