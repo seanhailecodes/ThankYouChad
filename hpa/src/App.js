@@ -14,11 +14,11 @@ class App extends Component {
      <Router>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/components/About" components={About} />
-        <Route path="/componenets/Blog" component={Blog} />
-        <Route path="/componenets/Contact" component={Contact} />
-        <Route path="/components/Services" component={Services} />
-        <Route path="/components/NoMatch" component={NoMatch} />
+        <Route path="/About" component={About} />
+        <Route path="/Blog" component={Blog} />
+        <Route path="/Contact" component={Contact} />
+        <Route path="/Services" component={Services} />
+        <Route component={NoMatch} />
       </Switch>
      </Router>
    </React.Fragment>
