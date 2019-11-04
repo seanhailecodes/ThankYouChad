@@ -6,11 +6,17 @@ import { Blog } from './components/Blog'
 import { Contact } from './components/Contact'
 import { Services } from './components/Services'
 import { NoMatch } from './components/NoMatch'
+import { Layout } from './components/Layout'
+import { NavigationBar } from './components/NavigationBar'
+import { Jumbotron } from './components/Jumbotron'
 
 class App extends Component {
   render() {
   return (
    <React.Fragment>
+     <NavigationBar />
+     <Jumbotron />
+     <Layout>
      <Router>
       <Switch>
         <Route exact path="/" component={Home} />
@@ -21,6 +27,7 @@ class App extends Component {
         <Route component={NoMatch} />
       </Switch>
      </Router>
+     </Layout>
    </React.Fragment>
     )
   }
