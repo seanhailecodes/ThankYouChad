@@ -20,10 +20,10 @@ const Styles = styled.div`
 class App extends Component {
   render() {
   return (
-     <Styles>
-   <React.Fragment>
+    <React.Fragment>
      <NavigationBar />
      <Jumbotron />
+       <Styles>
      <Layout>
      <Router>
       <Switch>
@@ -36,8 +36,8 @@ class App extends Component {
       </Switch>
      </Router>
      </Layout>
-   </React.Fragment>
      </Styles>
+   </React.Fragment>
     )
   }
 }
