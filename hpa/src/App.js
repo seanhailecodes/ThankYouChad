@@ -9,10 +9,18 @@ import { NoMatch } from './components/NoMatch'
 import { Layout } from './components/Layout'
 import { NavigationBar } from './components/NavigationBar'
 import { Jumbotron } from './components/Jumbotron'
+import styled from 'styled-components'
+
+const Styles = styled.div`
+    .blueBack {
+        background-color: #0000ff;
+    }
+`
 
 class App extends Component {
   render() {
   return (
+     <Styles>
    <React.Fragment>
      <NavigationBar />
      <Jumbotron />
@@ -29,6 +37,7 @@ class App extends Component {
      </Router>
      </Layout>
    </React.Fragment>
+     </Styles>
     )
   }
 }
