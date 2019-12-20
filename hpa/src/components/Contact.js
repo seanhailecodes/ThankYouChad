@@ -1,11 +1,25 @@
 import React from 'react'
+import styled from 'styled-components'
+
+const Styles = styled.div`
+    .contactFont {
+        color: white;
+    }
+`
 
 export const Contact = () => (
-    <div>
+    <Styles>
+    <div className='contactFont'>
       <h2>Contact Us</h2>
-      <p> lets talk about us
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip e non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip e non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>exercitation ullamco laboris nisi ut aliquip e non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.   </p>
+
+      <p> Phone: +1.9086939431
+          
+          
+          Email: Support@hpa.com
+
+          
+          Address: 123 Anywhere Ln. Denver CO 80209
+          </p>
     </div>
+    </Styles>
 )

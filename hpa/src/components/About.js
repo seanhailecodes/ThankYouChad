@@ -2,20 +2,21 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Styles = styled.div`
-    .blueStyle {
-        background-color: #0000FF;
-        background-size: cover;
-        color: #0000ff;
+    .aboutFont {
+        color: white;
     }
-    `
-
+`
 export const About = () => (
-
-  <div className='blueStyle'>
-    <h2>About Us</h2>
-    <p> 
-          We have a team of of proven experts, at your disposal. Drawing on decades of experience across twenty-four multi-disciplinary specialties, we will provide your practice with hands on support - improving your bottom line. 
-      </p>
-  </div>
- 
+    <Styles>
+      <div className='aboutFont'>
+          <h2>About Us</h2>
+          <br></br>
+          <p> 
+                We have a team of proven experts at your disposal. Drawing on two decades of experience providing consultative services across twenty-four disciplines of outpatient medicine. Our company founder has worked with several small independent medical practices as well as some of the largest and most prestigious universities in America including NYU School of Medicine, Columbia University, and Weill Cornell. We have helped our clients generate, and save hundreds of thousands of dollars. 
+            </p>
+            <p>
+              We can help you too.
+            </p>
+        </div>
+    </Styles>
 )
