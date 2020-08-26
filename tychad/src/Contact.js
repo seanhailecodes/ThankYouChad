@@ -11,19 +11,19 @@ export const Contact = () => (
     <Styles>
     <div className='contactFont'>
       <h2>Contact Me</h2>
-
+        <br></br>
         <p> 
-             Phone: 917.438.8920 or 303.827.4301     
+            Phone: 917.438.8920 or 303.827.4301     
         </p>
         <p>  
-             Email: seanhaile@pingidenetity.com
+            Email: seanhaile@pingidenetity.com
         </p>
         <p>
             Slack: Sean Haile    
         </p>
         <p>
-          Twitter: @seanhaile1    
-          </p>
+            Twitter: @seanhaile1    
+        </p>
     </div>
     </Styles>
 )

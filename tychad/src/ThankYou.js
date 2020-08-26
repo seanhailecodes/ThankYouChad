@@ -6,7 +6,7 @@ const Styles = styled.div`
         color: white;
     }
 `
-export const Services = () => (
+export const ThankYou = () => (
     <Styles>
       <div className = 'serviceFont'>
         <h2>Thank You</h2>
