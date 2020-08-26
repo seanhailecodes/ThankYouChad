@@ -10,15 +10,18 @@ const Styles = styled.div`
 export const Contact = () => (
     <Styles>
     <div className='contactFont'>
-      <h2>Contact Us</h2>
+      <h2>Contact</h2>
 
-      <p> Phone: +1.9086939431
-          
-          
-          Email: Support@hpa.com
+      <p> Phone: 917.438.8920 or 303.824.4301
 
+          </p>      
           
-          Address: 123 Anywhere Ln. Denver CO 80209
+          Email: seanhaile@pingidenetity.com
+             <p>
+          Slack: SeanTwitter @seanhaile1    
+          <p>
+          Twitter: @seanhaile1    
+          </p>
           </p>
     </div>
     </Styles>
